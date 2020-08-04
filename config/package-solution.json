@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Anniversary",
+    "id": "04497fff-95ef-4811-a183-313145c39a34",
+    "version": "1.0.0.17",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": true,
+    "webApiPermissionRequests": [{
+      "resource": "Microsoft Graph",
+      "scope": "Sites.FullControl.All"
+    }]
+  },
+
+  "paths": {
+    "zippedPackage": "solution/Anniversary.sppkg"
+  }
+}
